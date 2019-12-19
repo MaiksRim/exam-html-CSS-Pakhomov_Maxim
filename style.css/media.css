@@ -114,9 +114,6 @@
 	 		 margin: 0;
 	 		 position: relative;
 	 }
-	 .advantages-element:nth-child(5) .element-number, .advantages-element:last-child .element-number {
-	 		 
-	 }
 	 .advantages-element:last-child {
 	 		 top: 40px;
 	 }
@@ -125,7 +122,6 @@
 	 }
 	  .advantages-element:nth-child(2) {
 	  	padding-top: 80px;
-
 	  }
 	 .advantages-element:nth-child(2), .advantages-element:last-child {
 		margin-right: 75px;
@@ -399,7 +395,7 @@
 		line-height: 48px;
 	}
 	.header-text {
-		margin-top: 55px;
+		margin-top: 47px;
 		max-width: 440px;
 	}
 	.header-text-body {
@@ -422,6 +418,7 @@
 	.header-nav {
 		margin-top: 0;
 		width: 55px;
+		height: 60px;
 	}
 	.header-btn {
 		width: 33px;
@@ -460,8 +457,7 @@
 	 	position: static;
 	 	margin: 0;
 	  height: 300px;
-	  margin-left: 6px;
-	  left: 6px;
+	  
 	 }
 	 .advantages-element .element-number {
 	 	padding: 0;
@@ -479,22 +475,23 @@
 	  }
 	  .advantages-element:last-child {
 	  	height: 340px;
-	  	padding-left: 6px;
+	  	
 	  }
 	  .advantages-element:last-child h3{
 	  	padding-bottom: 15px;
 	  }
-	  	 footer, .work-stages, .contacts-section, .reviews-section, .video-section, .portfolio-section {
+	  	 footer, .work-stages, .contacts-section, .reviews-section, .portfolio-section {
 	 	display: none;
 	 }
 	 .services-section {
-	 	background-position: bottom 265px center;
+	 	background-position: bottom 365px center;
 	 	margin-bottom: 0;
-	 	padding-bottom: 200px;
+	 	
+	 	height: auto;
 	 }
 	 .services-section .page-container {
-	 	padding-bottom: 200px;
-	 	height: 1343px;
+	 	padding-bottom: 0px;
+	 	height: 1245px;
 	 }
 	 .click-option {
 	 	flex-direction: row;
@@ -519,16 +516,40 @@
 	 .click-option .services-content {
 	 	width: 100%;
 	  font-size: 20px;
+	  bottom: 100px;
 	 }
-
 	 .services-content .service-heading {
 	 	display: none;
 	 }
-	 .click-option .services-content {
-	 	bottom: 200px;
-	 }
 	 .button-wrapper .services-btn{
 	 	width: 215px;
-	 	padding: 20px 0px 20px 0px;
+	 	padding: 18px 0px 18px 0px;
+	 	left: 38px;
+	 	font-size: 15px;
 	 }
+	 .services-content .service-text {
+	 	font-size: 20px;
+	 }
+	 .video-section {
+	 	height: 618px;
+	 	margin-top: 108px;
+	 }
+	 .video-section p {
+	 	width: 290px;
+	 	line-height: 30px;
+	 	padding-top: 24px;
+	 }
+	 .video-section .plus {
+	 	width: 85px;
+		height: 85px;
+		margin-top: 10px;
+	 }
+	 .video-svg {
+	 	width: 22px;
+	  height: 25px;
+	  top: 2px;
+	 }
+	 .video-svg path {
+		transform: scale(0.8);
+
 }
