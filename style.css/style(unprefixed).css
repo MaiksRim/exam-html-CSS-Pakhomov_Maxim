@@ -90,7 +90,7 @@ html {
 	box-sizing: inherit;
 }
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', Arial, sans-serif;
 	background-color: #fdfaf3;
 }
 .page-header {
@@ -156,7 +156,7 @@ body {
 }
 .header-tel {
 	display: flex;
-	font-family: 'Muller';
+	font-family: 'Muller', Arial, sans-serif;
 	font-size: 14px;
 	margin-top: 30px;
 	letter-spacing: 0.075em;
@@ -177,7 +177,7 @@ body {
 }
 .default-heading {
 	font-size: 45px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', Arial, serif;
 	font-weight: 700;
 	letter-spacing: 0.01em;
 	color: #00203a;
@@ -276,7 +276,7 @@ body {
 	padding-right: 40px;
 }
 .advantages-element .element-number {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', Arial, serif;
 	font-size: 85px; 
 	font-weight: 700;
 	color: #fea052;
@@ -435,7 +435,7 @@ body {
 	right: 30px;
 }
 .gallery-element .rotated {
-	font-family: "Muller";
+	font-family: "Muller", Arial, sans-serif;
 	margin: 0;
 	top: -160px;
 	font-size: 14px;
@@ -507,7 +507,7 @@ body {
 	margin-left: auto;
 }
 .services-content .service-heading {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', Arial, serif;
 	color: #00203a;
 	font-size: 30px;
 	letter-spacing: 0.025em;
